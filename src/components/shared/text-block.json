@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_text_blocks",
+  "info": {
+    "displayName": "Text Block"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    },
+    "order": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

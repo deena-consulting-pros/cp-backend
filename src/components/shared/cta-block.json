@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_shared_cta_blocks",
+  "info": {
+    "displayName": "CTA Block"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "button": {
+      "type": "component",
+      "component": "shared.link",
+      "repeatable": false
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "dark",
+        "light",
+        "gradient"
+      ]
+    }
+  },
+  "config": {}
+}

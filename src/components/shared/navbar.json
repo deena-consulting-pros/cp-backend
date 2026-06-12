@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_shared_navbars",
+  "info": {
+    "displayName": "Navbar"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "siteName": {
+      "type": "string"
+    },
+    "navLinks": {
+      "type": "component",
+      "component": "shared.link",
+      "repeatable": true
+    },
+    "ctaLink": {
+      "type": "component",
+      "component": "shared.link",
+      "repeatable": false
+    },
+    "showCta": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

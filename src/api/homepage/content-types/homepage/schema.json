@@ -1,81 +1,67 @@
 {
   "kind": "singleType",
-  "collectionName": "abouts",
+  "collectionName": "homepages",
   "info": {
-    "singularName": "about",
-    "pluralName": "abouts",
-    "displayName": "About",
-    "description": "Write about yourself and the content you create"
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage"
   },
   "options": {
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "seo": {
-      "type": "component",
-      "component": "shared.seo",
-      "repeatable": false
-    },
     "hero": {
       "type": "component",
       "component": "shared.hero",
       "repeatable": false
     },
-    "storyHeading": {
+    "trustedHeading": {
       "type": "component",
       "component": "shared.section-heading",
       "repeatable": false
     },
-    "storyParagraphs": {
+    "trustedLogos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::client-logo.client-logo"
+    },
+    "seo": {
       "type": "component",
-      "component": "shared.text-block",
-      "repeatable": true
+      "component": "shared.seo",
+      "repeatable": false
     },
-    "competenciesTitle": {
-      "type": "string"
+    "introHeading": {
+      "type": "component",
+      "component": "shared.section-heading",
+      "repeatable": false
     },
-    "competencies": {
+    "introChips": {
       "type": "component",
       "component": "home.chip",
       "repeatable": true
     },
-    "missionVisionCards": {
-      "type": "component",
-      "component": "shared.info-card",
-      "repeatable": true
-    },
-    "valuesHeading": {
+    "servicesHeading": {
       "type": "component",
       "component": "shared.section-heading",
       "repeatable": false
     },
-    "values": {
+    "featuredServices": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    },
+    "whyChooseHeading": {
+      "type": "component",
+      "component": "shared.section-heading",
+      "repeatable": false
+    },
+    "whyChooseCards": {
       "type": "component",
       "component": "home.feature-card",
       "repeatable": true
     },
-    "pillarsHeading": {
-      "type": "component",
-      "component": "shared.section-heading",
-      "repeatable": false
-    },
-    "pillars": {
-      "type": "component",
-      "component": "about.pillar-card",
-      "repeatable": true
-    },
-    "edgeHeading": {
-      "type": "component",
-      "component": "shared.section-heading",
-      "repeatable": false
-    },
-    "edgeItems": {
-      "type": "component",
-      "component": "home.feature-card",
-      "repeatable": true
-    },
-    "edgeImage": {
+    "whyChooseImage": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
@@ -85,25 +71,50 @@
         "audios"
       ]
     },
-    "approachHeading": {
+    "whyChooseBackgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "processHeading": {
       "type": "component",
       "component": "shared.section-heading",
       "repeatable": false
     },
-    "approachSteps": {
+    "processSteps": {
       "type": "component",
       "component": "home.process-step",
       "repeatable": true
     },
-    "expertsHeading": {
+    "portfolioHeading": {
       "type": "component",
       "component": "shared.section-heading",
       "repeatable": false
     },
-    "experts": {
+    "portfolioItems": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::portfolio-item.portfolio-item"
+    },
+    "portfolioButton": {
       "type": "component",
-      "component": "about.expert-card",
-      "repeatable": true
+      "component": "shared.link",
+      "repeatable": false
+    },
+    "testimonialsHeading": {
+      "type": "component",
+      "component": "shared.section-heading",
+      "repeatable": false
+    },
+    "testimonials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::testimonial.testimonial"
     },
     "finalCta": {
       "type": "component",

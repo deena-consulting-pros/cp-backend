@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_shared_hero_floating_cards",
+  "info": {
+    "displayName": "Hero Floating Card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cardType": {
+      "type": "enumeration",
+      "enum": [
+        "seo",
+        "ppc",
+        "analytics",
+        "website",
+        "growth",
+        "search"
+      ]
+    },
+    "iconKey": {
+      "type": "component",
+      "component": "shared.icon-key",
+      "repeatable": false
+    },
+    "order": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

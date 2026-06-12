@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_services_connected_solutions",
+  "info": {
+    "displayName": "Connected Solutions"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "centerLabel": {
+      "type": "string"
+    },
+    "points": {
+      "type": "component",
+      "component": "services.connected-point",
+      "repeatable": true
+    },
+    "orbitItems": {
+      "type": "component",
+      "component": "shared.features-text",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

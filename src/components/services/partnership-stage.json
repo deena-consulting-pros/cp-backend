@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_services_partnership_stages",
+  "info": {
+    "displayName": "Partnership Stage"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "features": {
+      "type": "component",
+      "component": "shared.features-text",
+      "repeatable": true
+    },
+    "partnershipStageBtn": {
+      "type": "component",
+      "component": "shared.link",
+      "repeatable": false
+    },
+    "isRecommended": {
+      "type": "boolean"
+    },
+    "recommendedLabel": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

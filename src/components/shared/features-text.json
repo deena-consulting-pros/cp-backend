@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_features_texts",
+  "info": {
+    "displayName": "Features Text"
+  },
+  "options": {},
+  "attributes": {
+    "features": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,14 +1,13 @@
 {
   "kind": "singleType",
-  "collectionName": "abouts",
+  "collectionName": "services_pages",
   "info": {
-    "singularName": "about",
-    "pluralName": "abouts",
-    "displayName": "About",
-    "description": "Write about yourself and the content you create"
+    "singularName": "services-page",
+    "pluralName": "services-pages",
+    "displayName": "Services Page"
   },
   "options": {
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
@@ -22,87 +21,59 @@
       "component": "shared.hero",
       "repeatable": false
     },
-    "storyHeading": {
+    "servicesSection": {
       "type": "component",
       "component": "shared.section-heading",
       "repeatable": false
     },
-    "storyParagraphs": {
-      "type": "component",
-      "component": "shared.text-block",
-      "repeatable": true
-    },
-    "competenciesTitle": {
-      "type": "string"
-    },
-    "competencies": {
-      "type": "component",
-      "component": "home.chip",
-      "repeatable": true
-    },
-    "missionVisionCards": {
-      "type": "component",
-      "component": "shared.info-card",
-      "repeatable": true
-    },
-    "valuesHeading": {
+    "featuredServicesSection": {
       "type": "component",
       "component": "shared.section-heading",
       "repeatable": false
     },
-    "values": {
+    "connectedSolutions": {
       "type": "component",
-      "component": "home.feature-card",
-      "repeatable": true
+      "component": "services.connected-solutions",
+      "repeatable": false
     },
-    "pillarsHeading": {
+    "processHeading": {
       "type": "component",
       "component": "shared.section-heading",
       "repeatable": false
     },
-    "pillars": {
-      "type": "component",
-      "component": "about.pillar-card",
-      "repeatable": true
-    },
-    "edgeHeading": {
-      "type": "component",
-      "component": "shared.section-heading",
-      "repeatable": false
-    },
-    "edgeItems": {
-      "type": "component",
-      "component": "home.feature-card",
-      "repeatable": true
-    },
-    "edgeImage": {
-      "type": "media",
-      "multiple": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "approachHeading": {
-      "type": "component",
-      "component": "shared.section-heading",
-      "repeatable": false
-    },
-    "approachSteps": {
+    "processSection": {
       "type": "component",
       "component": "home.process-step",
       "repeatable": true
     },
-    "expertsHeading": {
+    "benefitsSectionHeading": {
       "type": "component",
       "component": "shared.section-heading",
       "repeatable": false
     },
-    "experts": {
+    "benefits": {
       "type": "component",
-      "component": "about.expert-card",
+      "component": "shared.info-card",
+      "repeatable": true
+    },
+    "partnershipStagesHeading": {
+      "type": "component",
+      "component": "shared.section-heading",
+      "repeatable": false
+    },
+    "partnershipStages": {
+      "type": "component",
+      "component": "services.partnership-stage",
+      "repeatable": true
+    },
+    "faqHeading": {
+      "type": "component",
+      "component": "shared.section-heading",
+      "repeatable": false
+    },
+    "faqSection": {
+      "type": "component",
+      "component": "shared.faq-section",
       "repeatable": true
     },
     "finalCta": {

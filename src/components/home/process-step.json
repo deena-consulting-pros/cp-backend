@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_home_process_steps",
+  "info": {
+    "displayName": "Process Step"
+  },
+  "options": {},
+  "attributes": {
+    "stepNumber": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "iconKey": {
+      "type": "component",
+      "component": "shared.icon-key",
+      "repeatable": false
+    },
+    "order": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

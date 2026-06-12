@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_shared_icon_keys",
+  "info": {
+    "displayName": "IconKey"
+  },
+  "options": {},
+  "attributes": {
+    "iconKey": {
+      "type": "enumeration",
+      "enum": [
+        "seo",
+        "ppc_marketing",
+        "digital_marketing",
+        "website_development",
+        "web_design",
+        "branding_strategy",
+        "location",
+        "analytics",
+        "growth",
+        "search",
+        "target",
+        "verified",
+        "email",
+        "route",
+        "rocket",
+        "message",
+        "globe",
+        "eye",
+        "users",
+        "shield",
+        "settings",
+        "briefcase",
+        "layers",
+        "zap",
+        "clock",
+        "check_circle"
+      ]
+    }
+  },
+  "config": {}
+}

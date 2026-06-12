@@ -1,0 +1,70 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_pages",
+  "info": {
+    "singularName": "contact-page",
+    "pluralName": "contact-pages",
+    "displayName": "Contact Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "hero": {
+      "type": "component",
+      "component": "shared.hero",
+      "repeatable": false
+    },
+    "heroPoints": {
+      "type": "component",
+      "component": "shared.icon-text-item",
+      "repeatable": true
+    },
+    "contactFormSection": {
+      "type": "component",
+      "component": "section.contact-form-section",
+      "repeatable": false
+    },
+    "serviceOptions": {
+      "type": "component",
+      "component": "shared.option-item",
+      "repeatable": true
+    },
+    "contactInfoCards": {
+      "type": "component",
+      "component": "shared.info-card",
+      "repeatable": true
+    },
+    "nextStepsHeading": {
+      "type": "component",
+      "component": "shared.section-heading",
+      "repeatable": false
+    },
+    "nextSteps": {
+      "type": "component",
+      "component": "shared.step-card",
+      "repeatable": true
+    },
+    "faqHeading": {
+      "type": "component",
+      "component": "shared.section-heading",
+      "repeatable": false
+    },
+    "faqSection": {
+      "type": "component",
+      "component": "shared.faq-section",
+      "repeatable": true
+    },
+    "finalCta": {
+      "type": "component",
+      "component": "shared.cta-block",
+      "repeatable": false
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_services_service_details",
+  "info": {
+    "displayName": "Service Details"
+  },
+  "options": {},
+  "attributes": {
+    "textPill": {
+      "type": "component",
+      "component": "shared.text-pill",
+      "repeatable": true
+    },
+    "visualItem": {
+      "type": "component",
+      "component": "shared.visual-item",
+      "repeatable": true
+    },
+    "checkListItem": {
+      "type": "component",
+      "component": "shared.text-pill",
+      "repeatable": true
+    },
+    "detailCard": {
+      "type": "component",
+      "component": "shared.info-card",
+      "repeatable": true
+    },
+    "processSteps": {
+      "type": "component",
+      "component": "home.process-step",
+      "repeatable": true
+    },
+    "faqHeading": {
+      "type": "component",
+      "component": "shared.section-heading",
+      "repeatable": false
+    },
+    "faqSection": {
+      "type": "component",
+      "component": "shared.faq-section",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

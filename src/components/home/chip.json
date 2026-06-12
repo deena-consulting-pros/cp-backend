@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_chips",
+  "info": {
+    "displayName": "Chip"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "iconKey": {
+      "type": "component",
+      "component": "shared.icon-key",
+      "repeatable": false
+    },
+    "order": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_visual_items",
+  "info": {
+    "displayName": "Visual Item"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "iconKey": {
+      "type": "component",
+      "component": "shared.icon-key",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

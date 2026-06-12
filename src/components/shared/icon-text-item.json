@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_icon_text_items",
+  "info": {
+    "displayName": "icon-text-item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "iconKey": {
+      "type": "component",
+      "component": "shared.icon-key",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

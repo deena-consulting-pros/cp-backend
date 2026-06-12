@@ -1,0 +1,75 @@
+{
+  "collectionName": "components_shared_heroes",
+  "info": {
+    "displayName": "Hero"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrowText": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "highlightText": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "primaryButton": {
+      "type": "component",
+      "component": "shared.link",
+      "repeatable": false
+    },
+    "secondaryButton": {
+      "type": "component",
+      "component": "shared.link",
+      "repeatable": false
+    },
+    "alignment": {
+      "type": "enumeration",
+      "enum": [
+        "Left",
+        "Center",
+        "Right"
+      ]
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "simple",
+        "split",
+        "centered",
+        "dashboard",
+        "dark"
+      ]
+    },
+    "heroFloatingCard": {
+      "type": "component",
+      "component": "shared.hero-floating-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

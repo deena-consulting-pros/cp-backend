@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_text_pills",
+  "info": {
+    "displayName": "Text Pill"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_section_contact_form_sections",
+  "info": {
+    "displayName": "contact-form-section"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "submitButtonLabel": {
+      "type": "string"
+    },
+    "helperText": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

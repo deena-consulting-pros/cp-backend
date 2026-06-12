@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_services_connected_points",
+  "info": {
+    "displayName": "Connected Point"
+  },
+  "options": {},
+  "attributes": {
+    "iconKey": {
+      "type": "component",
+      "component": "shared.icon-key",
+      "repeatable": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_step_cards",
+  "info": {
+    "displayName": "step-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "iconKey": {
+      "type": "component",
+      "component": "shared.icon-key",
+      "repeatable": false
+    },
+    "order": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

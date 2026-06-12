@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_about_pillar_cards",
+  "info": {
+    "displayName": "Pillar Card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "iconKey": {
+      "type": "component",
+      "component": "shared.icon-key",
+      "repeatable": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "link": {
+      "type": "component",
+      "component": "shared.link",
+      "repeatable": false
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "large_dark",
+        "tall_green",
+        "small_light",
+        "small_white"
+      ]
+    },
+    "order": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}
