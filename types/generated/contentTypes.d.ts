@@ -467,6 +467,7 @@ export interface ApiAboutAbout extends Struct.SingleTypeSchema {
     pillarsHeading: Schema.Attribute.Component<'shared.section-heading', false>;
     publishedAt: Schema.Attribute.DateTime;
     seo: Schema.Attribute.Component<'shared.seo', false>;
+    showHeroImage: Schema.Attribute.Boolean;
     storyHeading: Schema.Attribute.Component<'shared.section-heading', false>;
     storyParagraphs: Schema.Attribute.Component<'shared.text-block', true>;
     updatedAt: Schema.Attribute.DateTime;
