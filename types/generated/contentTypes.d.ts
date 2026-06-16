@@ -759,6 +759,8 @@ export interface ApiHomepageHomepage extends Struct.SingleTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    faqHeading: Schema.Attribute.Component<'shared.section-heading', false>;
+    faqSection: Schema.Attribute.Component<'shared.faq-section', true>;
     featuredServices: Schema.Attribute.Relation<
       'oneToMany',
       'api::service.service'

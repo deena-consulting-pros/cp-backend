@@ -116,6 +116,16 @@
       "relation": "oneToMany",
       "target": "api::testimonial.testimonial"
     },
+    "faqHeading": {
+      "type": "component",
+      "component": "shared.section-heading",
+      "repeatable": false
+    },
+    "faqSection": {
+      "type": "component",
+      "component": "shared.faq-section",
+      "repeatable": true
+    },
     "finalCta": {
       "type": "component",
       "component": "shared.cta-block",
