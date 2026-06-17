@@ -65,6 +65,9 @@
       "type": "component",
       "component": "shared.cta-block",
       "repeatable": false
+    },
+    "showHeroImage": {
+      "type": "boolean"
     }
   }
 }

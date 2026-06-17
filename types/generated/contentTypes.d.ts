@@ -652,6 +652,7 @@ export interface ApiContactPageContactPage extends Struct.SingleTypeSchema {
     publishedAt: Schema.Attribute.DateTime;
     seo: Schema.Attribute.Component<'shared.seo', false>;
     serviceOptions: Schema.Attribute.Component<'shared.option-item', true>;
+    showHeroImage: Schema.Attribute.Boolean;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
