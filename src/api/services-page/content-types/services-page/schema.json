@@ -26,6 +26,11 @@
       "component": "shared.section-heading",
       "repeatable": false
     },
+    "ctaSection": {
+      "type": "component",
+      "component": "section.service-cta-section",
+      "repeatable": false
+    },
     "featuredServicesSection": {
       "type": "component",
       "component": "shared.section-heading",

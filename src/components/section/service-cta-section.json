@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_section_service_cta_sections",
+  "info": {
+    "displayName": "Service CTA Section"
+  },
+  "options": {},
+  "attributes": {
+    "isEnabled": {
+      "type": "boolean"
+    },
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "primaryButtonLabel": {
+      "type": "string"
+    },
+    "primaryButtonUrl": {
+      "type": "string"
+    },
+    "secondaryButtonLabel": {
+      "type": "string"
+    },
+    "secondaryButtonUrl": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "navy",
+        "green",
+        "light"
+      ]
+    }
+  },
+  "config": {}
+}

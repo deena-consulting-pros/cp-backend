@@ -103,6 +103,27 @@ export interface SectionContactFormSection extends Struct.ComponentSchema {
   };
 }
 
+export interface SectionServiceCtaSection extends Struct.ComponentSchema {
+  collectionName: 'components_section_service_cta_sections';
+  info: {
+    displayName: 'Service CTA Section';
+  };
+  attributes: {
+    backgroundImage: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
+    description: Schema.Attribute.Text;
+    eyebrow: Schema.Attribute.String;
+    isEnabled: Schema.Attribute.Boolean;
+    primaryButtonLabel: Schema.Attribute.String;
+    primaryButtonUrl: Schema.Attribute.String;
+    secondaryButtonLabel: Schema.Attribute.String;
+    secondaryButtonUrl: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    variant: Schema.Attribute.Enumeration<['navy', 'green', 'light']>;
+  };
+}
+
 export interface ServicesConnectedPoint extends Struct.ComponentSchema {
   collectionName: 'components_services_connected_points';
   info: {
@@ -519,6 +540,7 @@ declare module '@strapi/strapi' {
       'home.process-step': HomeProcessStep;
       'layout.footer': LayoutFooter;
       'section.contact-form-section': SectionContactFormSection;
+      'section.service-cta-section': SectionServiceCtaSection;
       'services.connected-point': ServicesConnectedPoint;
       'services.connected-solutions': ServicesConnectedSolutions;
       'services.partnership-stage': ServicesPartnershipStage;

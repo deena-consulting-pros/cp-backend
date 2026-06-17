@@ -1001,6 +1001,10 @@ export interface ApiServicesPageServicesPage extends Struct.SingleTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    ctaSection: Schema.Attribute.Component<
+      'section.service-cta-section',
+      false
+    >;
     faqHeading: Schema.Attribute.Component<'shared.section-heading', false>;
     faqSection: Schema.Attribute.Component<'shared.faq-section', true>;
     featuredServicesSection: Schema.Attribute.Component<
