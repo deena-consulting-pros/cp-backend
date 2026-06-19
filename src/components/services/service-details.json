@@ -51,6 +51,15 @@
     },
     "overviewChecklistTitle": {
       "type": "string"
+    },
+    "benefitsEyebrow": {
+      "type": "string"
+    },
+    "benefitsTitle": {
+      "type": "string"
+    },
+    "benefitsDescription": {
+      "type": "text"
     }
   },
   "config": {}

@@ -173,6 +173,9 @@ export interface ServicesServiceDetails extends Struct.ComponentSchema {
     displayName: 'Service Details';
   };
   attributes: {
+    benefitsDescription: Schema.Attribute.Text;
+    benefitsEyebrow: Schema.Attribute.String;
+    benefitsTitle: Schema.Attribute.String;
     checkListItem: Schema.Attribute.Component<'shared.text-pill', true>;
     detailCard: Schema.Attribute.Component<'shared.info-card', true>;
     faqHeading: Schema.Attribute.Component<'shared.section-heading', false>;
