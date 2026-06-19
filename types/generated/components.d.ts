@@ -187,7 +187,10 @@ export interface ServicesServiceDetails extends Struct.ComponentSchema {
     overviewDescription: Schema.Attribute.Text;
     overviewEyebrow: Schema.Attribute.String;
     overviewTitle: Schema.Attribute.String;
+    processDescription: Schema.Attribute.Text;
+    processEyebrow: Schema.Attribute.String;
     processSteps: Schema.Attribute.Component<'home.process-step', true>;
+    processTitle: Schema.Attribute.String;
     textPill: Schema.Attribute.Component<'shared.text-pill', true>;
     visualItem: Schema.Attribute.Component<'shared.visual-item', true>;
   };

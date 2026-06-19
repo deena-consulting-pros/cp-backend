@@ -69,6 +69,15 @@
     },
     "includedDescription": {
       "type": "text"
+    },
+    "processEyebrow": {
+      "type": "string"
+    },
+    "processTitle": {
+      "type": "string"
+    },
+    "processDescription": {
+      "type": "text"
     }
   },
   "config": {}
