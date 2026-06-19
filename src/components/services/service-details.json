@@ -60,6 +60,15 @@
     },
     "benefitsDescription": {
       "type": "text"
+    },
+    "includedEyebrow": {
+      "type": "string"
+    },
+    "includedTitle": {
+      "type": "string"
+    },
+    "includedDescription": {
+      "type": "text"
     }
   },
   "config": {}

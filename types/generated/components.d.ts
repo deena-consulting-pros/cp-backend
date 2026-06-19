@@ -180,6 +180,9 @@ export interface ServicesServiceDetails extends Struct.ComponentSchema {
     detailCard: Schema.Attribute.Component<'shared.info-card', true>;
     faqHeading: Schema.Attribute.Component<'shared.section-heading', false>;
     faqSection: Schema.Attribute.Component<'shared.faq-section', true>;
+    includedDescription: Schema.Attribute.Text;
+    includedEyebrow: Schema.Attribute.String;
+    includedTitle: Schema.Attribute.String;
     overviewChecklistTitle: Schema.Attribute.String;
     overviewDescription: Schema.Attribute.Text;
     overviewEyebrow: Schema.Attribute.String;

@@ -72,6 +72,11 @@
       "type": "component",
       "component": "services.service-details",
       "repeatable": false
+    },
+    "serviceCta": {
+      "type": "component",
+      "component": "shared.cta-block",
+      "repeatable": false
     }
   }
 }

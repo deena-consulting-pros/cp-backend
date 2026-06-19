@@ -961,6 +961,7 @@ export interface ApiServiceService extends Struct.CollectionTypeSchema {
     order: Schema.Attribute.Integer;
     publishedAt: Schema.Attribute.DateTime;
     seo: Schema.Attribute.Component<'shared.seo', false>;
+    serviceCta: Schema.Attribute.Component<'shared.cta-block', false>;
     serviceDetails: Schema.Attribute.Component<
       'services.service-details',
       false
