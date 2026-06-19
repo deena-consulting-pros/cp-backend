@@ -39,6 +39,18 @@
       "type": "component",
       "component": "shared.faq-section",
       "repeatable": true
+    },
+    "overviewEyebrow": {
+      "type": "string"
+    },
+    "overviewTitle": {
+      "type": "string"
+    },
+    "overviewDescription": {
+      "type": "text"
+    },
+    "overviewChecklistTitle": {
+      "type": "string"
     }
   },
   "config": {}
