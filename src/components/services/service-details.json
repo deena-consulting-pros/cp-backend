@@ -49,6 +49,9 @@
     "overviewDescription": {
       "type": "text"
     },
+    "overviewRichDescriptionText": {
+      "type": "blocks"
+    },
     "overviewChecklistTitle": {
       "type": "string"
     },

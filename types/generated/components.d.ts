@@ -186,6 +186,7 @@ export interface ServicesServiceDetails extends Struct.ComponentSchema {
     overviewChecklistTitle: Schema.Attribute.String;
     overviewDescription: Schema.Attribute.Text;
     overviewEyebrow: Schema.Attribute.String;
+    overviewRichDescriptionText: Schema.Attribute.Blocks;
     overviewTitle: Schema.Attribute.String;
     processDescription: Schema.Attribute.Text;
     processEyebrow: Schema.Attribute.String;
